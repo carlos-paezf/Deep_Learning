@@ -13,10 +13,12 @@ pip install Flask
 
 Primero se debe extraer el proyecto con este comando:
 ```
-set FLASK_APP=app.py
+set FLASK_APP=flask_app.py
 ```
 
 Y luego para desplegarlo escribí:
 ```
-python -m app run
+python -m flask_app run
 ```
+
+Para hacer el despliegue en pythonanywhere.com, es importante que el archivo principal se llame flask_app.py, de lo contrario se generan errores.

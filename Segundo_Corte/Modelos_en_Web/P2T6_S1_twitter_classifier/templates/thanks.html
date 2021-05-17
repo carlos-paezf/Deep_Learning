@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Clasificador de sentimientos por Tweet</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+  <h3>¡Muchas gracias por la retroalimentación!</h3>
+  <div id="button">
+    <form action="/">
+      <input type="submit" value="Evaluar otro Tweet">
+    </form>
+  </div>
+
+  <hr>
+  <div id="sqliteReport">
+    <form action="/sqliteReport" method="post">
+      <input type="submit" value="Reporte de clasificación">
+    </form>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>SQLite clasificador de sentimientos Tweet</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+  <div class="container mx-5 mt-3">
+
+    <h3>Listado de clasificaciones realizadas</h3>
+    <hr>
+    <table class="table" border="1">
+      <thead class="thead-dark">
+        <tr>
+          <th>Tweet</th>
+          <th>Sentimiento</th>
+          <th>Fecha</th>
+        </tr>
+      </thead>
+
+      {% for row in dataset %}
+      <tbody>
+        <tr>
+          <td>{{ row[0] }}</td>
+          <td>{{ row[1] }}</td>
+          <td>{{ row[2] }}</td>
+        </tr>
+      </tbody>
+      {% endfor %}
+    </table>
+
+    <hr>
+    <div id="button">
+      <form action="/">
+        <input class="btn btn-outline-primary" type="submit" name="evaluar" value="Evaluar otro tweet">
+      </form>
+    </div>
+  </div>
+
+</body>
+
+</html>

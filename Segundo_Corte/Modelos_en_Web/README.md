@@ -11,3 +11,9 @@ Ahora bien, allí dentro vamos a la sección de *Code* y en el item de *Working 
 Dentro de esta pestaña, en el menú de directorios, ingresamos al directorio llamado *mysite/*, y en el menú de Files, añadimos nuestro archivo *flask_app.py*, si tenemos directorios para nuestro proyecto, los creamos desde el menú de *Directories* y añadimos los archivos allí.
 
 De regreso al menú de *Web apps*, pulsamos al boton de *Reload <nombre-user>.pythonanywhere.com* y podremos ingresar a dicha url para ver nuestros archivos.
+
+
+## Domain
+
+Los proyectos solo se pueden ver de a uno, por se cuentra gratuita. Al día 27 de mayo de 2021, el proyecto alojado es: [Twitter Classifier](carlospaezf.pythonanywhere.com).
+

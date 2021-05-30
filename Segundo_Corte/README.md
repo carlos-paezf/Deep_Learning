@@ -9,7 +9,7 @@ En esta página, se realizó un chat-bot "tonto", simulando ser un pequeño asis
 - [Despliegue del Chat-bot mediante la integración Web Demo de Dialogflow](https://bot.dialogflow.com/11c24f43-4b5a-4789-bbe3-b5a97db06720)
 
 
-- Despliegue de integración en Telegram: Buscar el siguiente usuario: [@usta_sis_pruebas_bot](t.me/usta_sis_pruebas_bot)
+- Despliegue de integración en Telegram: Buscar el siguiente usuario: @usta_sis_pruebas_bot --> t.me/usta_sis_pruebas_bot
 
 - [Integración con Messenger en página de Facebook](https://www.facebook.com/Materias-y-Docentes-Ing-Sistemas-USTA-Tunja-101944998717921)
 
